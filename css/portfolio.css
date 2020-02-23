@@ -1,0 +1,133 @@
+            body {
+                background-color: rgb(255, 249, 243);
+            }
+            
+            html {
+                scroll-behavior: smooth;
+            }
+            
+            .intro {
+                height: 100%;
+            }
+            
+            .logo {
+                width: 50%;
+                padding-top: 0%;
+                margin-left: 25%;
+            }
+            
+            .projectimages {
+                width: 50%;
+                margin-left: 25%;
+            }
+            
+            h2 {
+                font-family: Montserrat;
+            }
+            
+            .mainbody {
+                background-color: rgb(61, 77, 145);
+                height: 100%;
+                padding-bottom: 0;
+            }
+            
+            .bluebody {
+                background-color: rgb(61, 77, 145);
+                height: 100%;
+            }
+            
+            .myName {
+                font-size: 5rem;
+                font-weight: 800;
+                letter-spacing: 1;
+                margin: 0;
+                text-transform: uppercase;
+                color: rgb(61, 77, 145);
+            }
+            
+            .subheading {
+                font-size: 3.5rem;
+                letter-spacing: 1;
+                margin: 0;
+                font-weight: 600;
+                text-transform: uppercase;
+                color: rgb(61, 77, 145);
+            }
+            
+            .top {
+                padding-top: 10%;
+                width: 100%;
+                height: 45%;
+            }
+            
+            .projects {
+                color: rgb(255, 249, 243);
+                padding-left: 10%;
+                padding-top: 2%;
+            }
+            
+            .navbar {
+                background: rgb(255, 249, 243);
+                font-family: Montserrat;
+                font-weight: 800;
+                padding-left: 10%;
+                font-size: 1.5rem;
+            }
+            
+            .navbar.scrolled {
+                background-color: rgba(177, 177, 177, 0.411);
+                transition: background 500ms;
+            }
+            
+            .navbar-toggler-icon {
+                background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+            }
+            
+            .navbar-toggler {
+                border-color: rgb(255, 102, 203);
+            }
+            
+            #mainNavbar .navbar-brand {
+                font-family: Montserrat;
+                font-size: 1.5rem;
+                font-weight: 900;
+                text-transform: uppercase;
+                color: rgb(61, 77, 145);
+                margin-right: 2%;
+            }
+            
+            #mainNavbar .nav-link {
+                margin-left: 30px;
+                color: rgb(61, 77, 145);
+                text-transform: uppercase;
+            }
+            
+            #mainNavbar .nav-link:hover {
+                color: rgb(51, 51, 51);
+                text-decoration: underline;
+            }
+            
+            @media (max-width: 990px) {
+                h2.myName {
+                    font-size: 3.5rem;
+                    margin: 0;
+                }
+                h2.subheading {
+                    font-size: 2.5rem;
+                }
+                img {
+                    margin: 0;
+                }
+                .intro {
+                    height: 80%;
+                }
+            }
+            
+            @media (max-width: 850px) {
+                h2.myName {
+                    font-size: 2.5rem;
+                }
+                h2.subheading {
+                    font-size: 1.5rem;
+                }
+            }
